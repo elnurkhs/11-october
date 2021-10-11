@@ -1,0 +1,360 @@
+/* header start */
+header{
+    background-color: white;
+    padding: 30px 60px;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+header .navbar{
+    display: flex;
+    justify-content: space-between;
+}
+header .navbar .hamburger-icon{
+    display: none;
+}
+header .navbar .navbar-items ul{
+    list-style-type: none;
+}
+header .navbar .navbar-items ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+header .navbar .navbar-items ul li .navbar-link{
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+    font-size: 16px;
+    font-weight: 600;
+}
+header .navbar .navbar-items ul li .navbar-link:hover{
+    color: blue;
+}
+header .navbar .navbar-items ul li a button{
+    padding: 5px 30px;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    color: whitesmoke;
+    font-weight: 600;
+}
+header .navbar .navbar-items ul li a button:hover{
+    background-color: purple;
+    border-color: purple;
+}
+/* header end */
+/* slogan section start */
+#slogan-section  .slogan-title {
+    padding-top: 150px;
+    width: 70%;
+    font-size: 23px;
+}
+#slogan-section .slogan-title .title-links h2 a{
+    color: blueviolet;
+    text-decoration: none;
+}
+#slogan-section .slogan-title .title-links h2 a:hover{
+    color: purple;
+}
+.title-button{
+    padding-top: 20px;
+}
+#slogan-section .slogan-title .title-button .btn-year{
+    padding: 5px 30px;
+    font-weight: 700;
+    font-size: 30px;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    color: whitesmoke;
+}
+#slogan-section .slogan-title .title-button .btn-year:hover{
+    background-color: purple;
+    cursor: pointer;
+}
+/* slogan section end */
+/* projects section start */
+#projects-section .item-background{
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#projects-section .img-background-first{
+    margin-top: 100px;
+    background-color: #555934;
+    display: flex;
+    flex-wrap: wrap;
+    width: 525px;
+    padding: 43px;
+}
+#projects-section .img-background-first .img-div img{
+    max-width: 100%;
+    width: 500px;
+    cursor: pointer;
+    transform: scale(1);
+}
+#projects-section .img-background-first .img-div img:hover{
+    transition: all 0.6s;
+    transform: scale(1.1);
+}
+#projects-section .img-background-second{
+    margin-top: 100px;
+    background-color: #255394;
+    display: flex;
+    flex-wrap: wrap;
+    width: 525px;
+    padding: 43px;
+}
+#projects-section .img-background-second .img-div img{
+    max-width: 100%;
+    width: 500px;
+    cursor: pointer;
+    transform: scale(1);
+}
+#projects-section .img-background-second .img-div img:hover{
+    transition: all 0.6s;
+    transform: scale(1.1);
+}
+#projects-section .img-background-third{
+    margin-top: 100px;
+    background-color: #c72e36;
+    display: flex;
+    flex-wrap: wrap;
+    width: 525px;
+    padding: 43px;
+}
+#projects-section .img-background-third .img-div img{
+    max-width: 100%;
+    width: 500px;
+    cursor: pointer;
+    transform: scale(1);
+}
+#projects-section .img-background-third .img-div img:hover{
+    transition: all 0.6s;
+    transform: scale(1.1);
+}
+#projects-section .img-background-fourth{
+    margin-top: 100px;
+    background-color: #d10110;
+    display: flex;
+    flex-wrap: wrap;
+    width: 525px;
+    padding: 43px;
+}
+#projects-section .img-background-fourth .img-div img{
+    max-width: 100%;
+    width: 500px;
+    cursor: pointer;
+    transform: scale(1);
+}
+#projects-section .img-background-fourth .img-div img:hover{
+    transition: all 0.6s;
+    transform: scale(1.1);
+}
+#projects-section .img-background-five{
+    margin-top: 100px;
+    background-color: #064478;
+    display: flex;
+    flex-wrap: wrap;
+    width: 525px;
+    padding: 43px;
+}
+#projects-section .img-background-five .img-div img{
+    max-width: 100%;
+    width: 500px;
+    cursor: pointer;
+    transform: scale(1);
+}
+#projects-section .img-background-five .img-div img:hover{
+    transition: all 0.6s;
+    transform: scale(1.1);
+}
+#projects-section .img-background-six{
+    margin-top: 100px;
+    background-color: #1f3c80;
+    display: flex;
+    flex-wrap: wrap;
+    width: 525px;
+    padding: 43px;
+}
+#projects-section .img-background-six .img-div img{
+    max-width: 100%;
+    width: 500px;
+    cursor: pointer;
+    transform: scale(1);
+}
+#projects-section .img-background-six .img-div img:hover{
+    transition: all 0.6s;
+    transform: scale(1.1);
+}
+/* projects section end */
+/* advantages section start */
+#advantages{
+    margin-top: 100px;
+    background-color: #1BA9E3;
+    height: 500px;
+    color: whitesmoke;
+}
+#advantages .text h2{
+    font-size: 50px;
+    padding-top: 100px;
+    font-weight: 700;
+}
+#advantages .products .icon-div{
+    font-size: 80px;
+    padding-top: 30px;
+}
+#advantages .products .icon-div i:hover{
+    transition: all 0.5s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#advantages .products .text-about{
+    font-weight: 400;
+}
+/* advantages section end */
+
+/* Responsivity */
+@media screen and (max-width: 992px) {
+
+    header .navbar .hamburger-icon{
+        display: block;
+    }
+    header .navbar .navbar-items{
+        display: none;
+    }
+    header .navbar .logo img{
+        width: 100px;
+    }
+    #slogan-section  .slogan-title {
+        padding-top: 150px;
+        width: 100%;
+        font-size: 16px;
+    }
+    .title-button{
+        padding-top: 20px;
+        font-size: 45px;
+    }
+    #slogan-section .slogan-title .title-button .btn-year{
+        padding: 5px 30px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    #slogan-section .slogan-title .title-button .btn-year{
+        padding: 5px 30px;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    #advantages .text h2{
+        font-size: 38px;
+    }
+    #advantages .products .icon-div{
+        font-size: 70px;
+        padding-top: 30px;
+    }
+    #advantages .products .text-about{
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    header .navbar .hamburger-icon{
+        display: block;
+    }
+    header .navbar .navbar-items{
+        display: none;
+    }
+    header .navbar .logo img{
+        width: 100px;
+    }
+    #slogan-section  .slogan-title {
+        padding-top: 100px;
+        width: 100%;
+        font-size: 11px;
+    }
+    .title-button{
+        padding-top: 15px;
+        font-size: 45px;
+    }
+    #advantages{
+        height: 700px;
+    }
+    #advantages .text h2{
+        font-size: 80px;
+    }
+    #advantages .products .text-h3 h3{
+        font-size: 60px;
+    }
+    #advantages .products .icon-div{
+        font-size: 60px;
+        padding-top: 30px;
+    }
+    #advantages .products .text-about{
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header .navbar .hamburger-icon{
+        display: block;
+        font-size: 60px;
+    }
+    header{
+        padding-top: 50px;
+    }
+    header .navbar .navbar-items{
+        display: none;
+    }
+    header .navbar .logo img{
+        width: 500px;
+    }
+    #slogan-section  .slogan-title {
+        padding-left: 150px;
+        text-align: left;
+        padding-top: 100px;
+        width: 100%;
+        font-size: 12px;
+    }
+    #slogan-section .slogan-title .title-links h2 {
+        padding-top: 250px;
+        font-size: 70px;
+    }
+    #slogan-section .slogan-title .title-text h2{
+        font-size: 70px;
+    }
+    .title-button{
+        padding-top: 40px;
+    }
+    #slogan-section .slogan-title .title-button .btn-year{
+        padding: 5px 30px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    #advantages{
+        width: 1170px;
+        height: 1870px;
+    }
+    #advantages h2{
+        padding-top: 130px;
+        padding-left: 65px;
+        font-size: 70px
+    }
+    #advantages .products .icon-div{
+        padding-left: 65px;
+        font-size: 140px;
+    }
+    #advantages .products .text-h3{
+        padding-left: 65px;
+        font-size: 75px;
+    }
+    #advantages .products .text-about p{
+        font-size: 50px;
+        padding-left: 65px;
+        width: 900px;
+    }
+}
+
